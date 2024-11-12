@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Forms Homework</title>
+  </head>
+  <body>
+    <h1>Dado Tea Lunch Special</h1>
+
+    <p>Monday through friday</p>
+    <p>11am - 3pm</p>
+    <p>$9.95 plus tax</p>
+    <br />
+    <p>Includes sandwich, snack and drink.</p>
+
+    <form action="" method="get">
+      <fieldset>
+        <legend><b>Order information</b></legend>
+        <label for="name">Name</label>
+        <input type="text" id="name" required placeholder="Enter your name" />
+        <br />
+        <input type="radio" id="here" name="questionOne" />
+        <label for="here">Here</label>
+        <br />
+        <input type="radio" id="toGo" name="questionOne" />
+        <label for="toGo">To Go</label>
+      </fieldset>
+
+      <fieldset>
+        <legend><b>Sandwiches</b></legend>
+
+        <b>Monday</b>
+        <br />
+        <input type="radio" id="tomatoMozzarella" name="questionTwo" />
+        <label for="tomatoMozzarella">Tomato Mozzarella</label>
+        <br />
+        <input type="radio" id="chickenSalad" name="questionTwo" />
+        <label for="chickenSalad">Chicken Salad</label>
+        <br />
+        <br />
+        <b>Tuesday</b>
+        <br />
+        <input type="radio" id="greekSaladWrap" name="questionThree" />
+        <label for="greekSaladWrap">Greek Salad Wrap</label>
+        <br />
+        <input type="radio" id="totoWrap" name="questionThree" />
+        <label for="totoWrap">Toto Wrap</label>
+        <br />
+        <br />
+        <b>Wednesday</b>
+        <br />
+        <input type="radio" id="redPapperHummusWrap" name="questionFour" />
+        <label for="redPapperHummusWrap">Red Papper Hummus Wrap</label>
+        <br />
+        <input type="radio" id="roastedTurkey" name="questionFour" />
+        <label for="roastedTurkey">Roasted Turkey</label>
+        <br />
+        <br />
+        <b>Thursday</b>
+        <br />
+        <input type="radio" id="carrotGingerHummusWrap" name="questionFive" />
+        <label for="carrotGingerHummusWrap">Carrot-Ginger Hummus Wrap</label>
+        <br />
+        <input type="radio" id="eggSalad" name="questionFive" />
+        <label for="eggSalad">Egg Salad</label>
+        <br />
+        <br />
+        <b>Friday</b>
+        <br />
+        <input type="radio" id="dadoWrap" name="questionSix" />
+        <label for="dadoWrap"> Dado Wrap</label>
+        <br />
+        <input type="radio" id="tunaSalad" name="questionSix" />
+        <label for="tunaSalad"> Tuna Salad</label>
+        <hr />
+        <input type="checkbox" id="glutenFreeBread" />
+        <label for="glutenFreeBread"> 75$ extra for Gluten Free Bread</label>
+      </fieldset>
+
+      <fieldset>
+        <legend><b>Snack</b></legend>
+        <input type="radio" id="apple" name="questionSeven" />
+        <label for="apple">Apple</label>
+        <br />
+        <input type="radio" id="banana" name="questionSeven" />
+        <label for="banana"> Banana</label>
+        <br />
+        <input type="radio" id="potatoChips" name="questionSeven" />
+        <label for="potatoChips">Potato Chips</label>
+        <br />
+      </fieldset>
+
+      <fieldset>
+        <legend><b>Drink</b></legend>
+        <br />
+        <label for="drinks">Drinks</label>
+        <select name="drinks" id="drinks">
+          <option selected disabled>None</option>
+          <option>Hot Coffee</option>
+          <option>Iced Coffee</option>
+          <option>Organic Peppermint</option>
+          <option>Hot Sencha Green Tea</option>
+          <option>Iced Sencha Green Tea</option>
+          <option>Hot Keemun Black Tea</option>
+          <option>Iced Keemun Black Tea</option>
+        </select>
+        <hr />
+        <input type="checkbox" id="largerDrink" />
+        <label for="largerDrink"> 75$ extra for Larger Drink</label>
+      </fieldset>
+      <button>Submit</button>
+      <button type="reset">Reset</button>
+    </form>
+  </body>
+</html>
