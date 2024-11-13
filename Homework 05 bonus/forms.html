@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Student Exercise</title>
+  </head>
+  <body>
+    <h1 style="color: brown">STUDENT EXERCISE</h1>
+
+    <form action="" method="get">
+      <fieldset>
+        <h5>Testform</h5>
+        <hr />
+
+        <label for="name"><b>Name</b></label>
+        <input type="text" id="name" required placeholder="Enter your name" />
+        <br />
+        <br />
+
+        <label for="password"><b>Password</b></label>
+        <input
+          type="password"
+          id="password"
+          placeholder="Enter your password"
+          required
+        />
+        <br />
+        <br />
+
+        <label for="gender"><b>Gender:</b></label>
+        <br />
+        <input type="radio" id="male" name="oneQuestion" />
+        <label for="male">Male</label>
+        <br />
+        <input type="radio" id="female" name="oneQuestion" />
+        <label for="female">Female</label>
+        <br />
+        <br />
+
+        <label for="continent"><b>Continent:</b></label>
+        <select name="" id="region">
+          <option selected disabled>Please select an option</option>
+          <option value="">Europa</option>
+          <option value="">Asia</option>
+          <option value="">Africa</option>
+          <option value="">North America</option>
+          <option value="">South America</option>
+          <option value="">Antartic</option>
+          <option value="">Australia</option>
+        </select>
+        <br />
+        <br />
+
+        <label for="meals"><b>Meals:</b></label>
+        <br />
+        <input type="radio" id="breakfast" name="twoQuestion" />
+        <label for="breakfast">breakfast</label>
+        <br />
+        <input type="radio" id="lunch" name="twoQuestion" />
+        <label for="lunch">lunch</label>
+        <br />
+        <input type="radio" id="dinner" name="twoQuestion" />
+        <label for="dinner">dinner</label>
+        <br />
+        <br />
+        <label><b>Remark:</b></label>
+        <br />
+        <textarea
+          name="remark"
+          id="remark"
+          placeholder="Enter remark here"
+          cols="30"
+          rows="4"
+        ></textarea>
+        <hr />
+        <button type="submit">Submit</button>
+        <button type="reset">Reset</button>
+      </fieldset>
+    </form>
+  </body>
+</html>
