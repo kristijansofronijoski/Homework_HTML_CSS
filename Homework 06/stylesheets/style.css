@@ -1,0 +1,196 @@
+* {
+  box-sizing: border-box;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+body {
+  margin: 0px;
+  background-color: beige;
+}
+header {
+  background-color: lightblue;
+  text-align: center;
+  padding: 5px;
+}
+.navbar1 {
+  height: 20px;
+}
+.section1 {
+  width: 30%;
+  float: left;
+  padding: 5px;
+}
+.section2 {
+  width: 40%;
+  float: left;
+  padding: 5px;
+}
+.aside1 {
+  width: 30%;
+  float: left;
+  padding: 5px;
+}
+#video1 {
+  width: 344px;
+  height: 229px;
+}
+#video2 {
+  width: 344px;
+  height: 229px;
+}
+@media screen and (max-width: 600px) {
+  aside,
+  section,
+  article {
+    width: 100%;
+  }
+}
+
+.footer {
+  display: block;
+  clear: both;
+  background-color: rgb(176, 202, 25);
+  text-align: center;
+  padding: 5px;
+}
+.navbar1 ul {
+  list-style-type: none;
+  background-color: grey;
+  padding: 3px;
+  margin-left: 1px;
+  overflow: hidden;
+  display: inline-flex;
+}
+.navbar1 a {
+  color: white;
+  text-decoration: none;
+  padding: 0px;
+  display: flex;
+  text-align: right;
+}
+.navbar2 ul {
+  list-style-type: none;
+  background-color: grey;
+  padding: 0px;
+  margin-left: 0px;
+  overflow: hidden;
+  display: flex;
+}
+.navbar2 a {
+  color: white;
+  text-decoration: none;
+  padding: 10px;
+  display: inline-block;
+  text-align: center;
+}
+.navbar2 a:hover {
+  background-color: rgb(10, 7, 44);
+  cursor: pointer;
+  font-size: larger;
+}
+.navbar2 a:active {
+  cursor: grabbing;
+}
+.navbar2 li {
+  float: left;
+  margin-left: 5%;
+}
+.icons {
+  text-align: center;
+}
+.icons a {
+  text-decoration: none;
+  margin-right: 20px;
+}
+.fa-brands.fa-twitter.fa-2x {
+  color: rgb(0, 0, 0);
+}
+.fa-brands.fa-youtube.fa-2x {
+  color: red;
+}
+.fa-brands.fa-youtube.fa-2x:hover {
+  cursor: pointer;
+  color: rgb(233, 76, 3);
+}
+.fa-brands.fa-youtube.fa-2x:active {
+  cursor: grabbing;
+}
+.fa-brands.fa-twitter.fa-2x:hover {
+  cursor: pointer;
+  color: rgb(16, 105, 300);
+}
+.fa-brands.fa-twitter.fa-2x:active {
+  cursor: grabbing;
+}
+.fa-brands.fa-facebook.fa-2x {
+  color: rgb(17, 70, 216);
+}
+.fa-brands.fa-facebook.fa-2x:hover {
+  cursor: pointer;
+  color: rgb(79, 131, 228);
+}
+.fa-brands.fa-facebook.fa-2x:active {
+  cursor: grabbing;
+}
+h1 {
+  color: red;
+  text-shadow: 1px 2px 2px rgb(121, 83, 83);
+}
+p::first-letter {
+  color: red;
+  font-size: x-large;
+  text-shadow: 1px, 2px, 2px, red;
+}
+a {
+  text-decoration: none;
+}
+h2 {
+  color: blue;
+}
+.fixed {
+  border: 2px solid rgb(206, 27, 161);
+  border-radius: 10px;
+  position: fixed;
+  bottom: 0px;
+  right: 10px;
+  z-index: 999;
+  background-color: yellow;
+}
+.navbar2 {
+  position: sticky;
+  top: 10px;
+}
+.navbar1 {
+  display: inline-block;
+}
+#box1 {
+  margin-right: 20px;
+}
+#box2 {
+  margin-right: 20px;
+}
+#box1:hover {
+  font-size: larger;
+  background-color: blueviolet;
+}
+#box2:hover {
+  font-size: larger;
+  background-color: burlywood;
+}
+#box3:hover {
+  font-size: larger;
+  background-color: chartreuse;
+}
+#audio {
+  width: 20%;
+  height: 20px;
+  display: inline-block;
+}
+.section1 a:hover {
+  font-size: larger;
+}
+.section2 a:hover {
+  font-size: larger;
+}
+.navbar2 li {
+  margin-right: 100px;
+}
