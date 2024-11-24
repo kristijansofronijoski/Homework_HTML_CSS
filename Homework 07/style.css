@@ -1,0 +1,75 @@
+* {
+  box-sizing: border-box;
+}
+.section {
+  border: 4px solid black;
+  background-color: black;
+  width: 800px;
+  height: 800px;
+  position: relative;
+}
+.divOne {
+  /* border: 1px solid red; */
+  background-color: red;
+  width: 600px;
+  height: 600px;
+  position: relative;
+  float: right;
+}
+.divTwo {
+  /* border: 1px solid greenyellow; */
+  background-color: bisque;
+  width: 20px;
+  height: 85px;
+  position: relative;
+  float: right;
+  left: 590px;
+  top: 77%;
+}
+.divThree {
+  /* border: 1px solid red; */
+  background-color: yellow;
+  width: 20px;
+  height: 80px;
+  position: relative;
+  float: right;
+  left: 610px;
+  top: 89%;
+}
+.divFour {
+  /* border: 1px solid yellow; */
+  background-color: bisque;
+  width: 180px;
+  height: 200px;
+  position: absolute;
+  float: inline-start;
+  top: 1%;
+}
+.divFive {
+  /* border: 1px solid black; */
+  background-color: bisque;
+  width: 180px;
+  height: 360px;
+  position: absolute;
+  float: left;
+  top: 30%;
+}
+.divSix {
+  /* border: 1px solid slateblue; */
+  background-color: bisque;
+  width: 560px;
+  height: 177px;
+  position: absolute;
+  float: left;
+  right: 39px;
+  bottom: 5px;
+}
+.divSeven {
+  /* border: 1px solid green; */
+  background-color: blue;
+  width: 180px;
+  height: 180px;
+  position: absolute;
+  float: left;
+  top: 77%;
+}
